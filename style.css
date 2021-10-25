@@ -1,0 +1,88 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');body
+{
+    background-size: repeat;
+    font-family: 'Righteous', cursive;
+}
+h1{
+    color: white;
+}
+
+h1:hover{
+    background-color: lightgreen;
+    transition-duration: 00.5s;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+}
+
+#header button{
+    float: right;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+#header button:hover{
+    background-color:lawngreen;
+    transition-duration: 0.5s;
+    color: black;
+}
+
+#Play{
+    background-color: tomato;
+    color: white;
+    width: 15%;
+    font-size: 20px;
+}
+
+#Play:hover{
+    background-color: cyan;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#Status{
+    color: chartreuse;
+}
+
+#Restart{
+    width: 15%;
+    font-size: 20px;
+    background-color:orange;
+    color: white;
+    margin-left: 20px;
+}
+
+#Restart:hover{
+    background-color: yellow    ;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+#footer:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    font-size: 20px;
+}
+
+canvas{
+    border-color: white;
+    border-style:solid;
+    border-width: 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 31px white;
+}
